@@ -1,4 +1,6 @@
 package com.ecommerce.ecommerce.auth.user.model;
 
-public interface UserCreationValidation {
+import com.ecommerce.ecommerce.commons.validation.ResourceCreationValidation;
+
+public interface UserCreationValidation extends ResourceCreationValidation {
 }
