@@ -15,7 +15,7 @@ import java.util.Set;
 
 @Data
 @Entity
-@NoArgsConstructor
+
 @AllArgsConstructor
 @Table(name = "users")
 public class User {
@@ -44,6 +44,8 @@ public class User {
 
     private String password;
 
+    public User() {
+    }
 
     @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE }, fetch = FetchType.EAGER)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
@@ -57,5 +59,6 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = { CascadeType.PERSIST, CascadeType.MERGE }, orphanRemoval = true)
     private Cart cart;
+
 
 }

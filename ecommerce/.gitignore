@@ -34,23 +34,3 @@ build/
 
 src/main/resources/application-dev.properties
 
-src/main/java/com.ecommerce.ecommerce/config/AppConstants
-src/main/java/com.ecommerce.ecommerce/config/ContentConfig
-src/main/java/com.ecommerce.ecommerce/config/SecurityConfig
-src/main/java/com.ecommerce.ecommerce/config/SwaggerConfig
-src/main/java/com.ecommerce.ecommerce/config/UserInfoConfig
-src/main/java/com.ecommerce.ecommerce/controller/UserController
-src/main/java/com.ecommerce.ecommerce/dto
-src/main/java/com.ecommerce.ecommerce/exceptions
-src/main/java/com.ecommerce.ecommerce/security/JWTFilter
-src/main/java/com.ecommerce.ecommerce/security/JWTUtil
-src/main/java/com.ecommerce.ecommerce/services/AddressService
-src/main/java/com.ecommerce.ecommerce/services/CartService
-src/main/java/com.ecommerce.ecommerce/services/CartServiceImp
-src/main/java/com.ecommerce.ecommerce/services/CategoryService
-src/main/java/com.ecommerce.ecommerce/services/OrderService
-src/main/java/com.ecommerce.ecommerce/services/ProductService
-src/main/java/com.ecommerce.ecommerce/services/ProductServiceImpl
-src/main/java/com.ecommerce.ecommerce/services/UserDetailsServiceImpl
-src/main/java/com.ecommerce.ecommerce/services/UserService
-src/main/java/com.ecommerce.ecommerce/services/UserServiceImp
